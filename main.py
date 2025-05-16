@@ -36,9 +36,7 @@ def generate_random_number():
 def read_file(file_path, index):
     """Read the file and return its content."""
     file_path = open(file_path, 'r')
-    content = file_path.readlines()
-
-    
+    content = file_path.readlines()    
     return content[index]
 
     # Uncomment to read all lines in the file.    
