@@ -26,10 +26,6 @@ def main():
     print(f"Consequences given on: {dt.datetime.today():%B %d, %Y @ %H:%M}")
     pass
 
-
-
-
-
 def generate_random_number():
     """Generate a random number."""
     with open(r"consequences.txt", 'r') as file:
